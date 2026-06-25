@@ -61,7 +61,7 @@ Interactivity: country and year slicers, hover tooltips, and cross-filtering acr
 
 - Treatment coverage varies widely; several countries fall into the “Low <60%” category, indicating potential outbound treatment demand.
 
-- Manufacturing and Households are consistently among the top waste sources in multiple markets.
+- Manufacturing is consistently among the top waste sources in multiple markets.
 
 - Czechia, and Romania show a significant capacity gap (>500k tonnes in 2022 alone), suggesting an underserved domestic market or need for cross-border treatment solutions. Based on these results, the most sensible expansion targets are Czechia and Poland
 
