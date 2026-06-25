@@ -63,7 +63,7 @@ Interactivity: country and year slicers, hover tooltips, and cross-filtering acr
 
 - Manufacturing is consistently among the top waste sources in multiple markets.
 
-- Czechia, and Romania show a significant capacity gap (>500k tonnes in 2022 alone), suggesting an underserved domestic market or need for cross-border treatment solutions. Based on these results, the most sensible expansion targets are Czechia and Poland
+- Czechia, and Romania show a significant capacity gap (>500k tonnes in 2022 alone), suggesting an underserved domestic market or need for cross-border treatment solutions. Based on these results, the most sensible expansion targets are Czechia and Poland.
 
 ## Data Limitations
 
