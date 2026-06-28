@@ -14,6 +14,7 @@ Help GreenLoop identify attractive hazardous-waste markets and treatment shortfa
   Link: https://github.com/Natasa03-viz/Hazardous-waste-market-analysis-/tree/main/Images
 
 - CSV exports (from SQL outputs)
+  Link:https://github.com/Natasa03-viz/Hazardous-waste-market-analysis-/tree/main/SQL%20Files
 
 Source: Eurostat (env_wasgen, env_wastrt),  [Eurostat waste statistics data sources](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Waste_statistics#Data_sources)
 
