@@ -1,7 +1,7 @@
 # Industrial Hazardous Waste Market Analysis
 
 ## Overview
-This repository contains a compact, business-focused analysis of hazardous waste generation and treatment across selected European countries for a fictitious company, GreenLoop. The work uses SQL to prepare analysis tables and a Power BI dashboard to explore country- and sector-level market signals for hazardous waste treatment opportunities.
+This project presents a concise, business-focused analysis of hazardous waste generation and treatment trends across selected European countries for a fictitious company, GreenLoop, exploring potential expansion opportunities for its hazardous waste management operations in Europe. The objective was to identify suitable publicly available data that could reveal attractive markets for expansion and extract insights. SQL was used to efficiently prepare and analyze large datasets, while Power BI was used to visualize country- and sector-level market signals and support the identification of potential opportunities.
 
 ## Project Goal
 Help GreenLoop identify attractive hazardous-waste markets and treatment shortfalls by answering: Which countries generate the most hazardous waste, how much is treated domestically, which sectors produce the most waste, and where are the largest gaps between generation and domestic treatment capacity?
@@ -20,7 +20,7 @@ Source: Eurostat (env_wasgen, env_wastrt),  [Eurostat waste statistics data sour
 
 Four SQL analyses exported as CSVs for use in BI tools: country trends, treatment coverage, sector ranking, and capacity gap.
 
-A Power BI dashboard with a star schema model that supports country and year filtering, sector breakdowns, trend analysis, KPI summaries, and a geographic comparison. 
+Power BI dashboard designed on a star schema data model to support DAX measure development, filter context interaction across country and year dimensions, sector-level segmentation, trend analysis, KPI aggregation, and geographic comparison.
 Note:.pbix is excluded to keep the repo lightweight; screenshots demonstrate the full interactive report.
 
 ## Business Questions and SQL analyses outputs (short descriptions)
