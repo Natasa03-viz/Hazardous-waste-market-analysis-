@@ -11,6 +11,7 @@ Help GreenLoop identify attractive hazardous-waste markets and treatment shortfa
 - SQL (for data extraction, aggregation and modelling)
 
 - Power BI (interactive dashboard; screenshot included)
+  Link: https://github.com/Natasa03-viz/Hazardous-waste-market-analysis-/tree/main/Images
 
 - CSV exports (from SQL outputs)
 
