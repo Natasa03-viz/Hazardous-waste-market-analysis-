@@ -23,7 +23,7 @@ Source: Eurostat (env_wasgen, env_wastrt),  [Eurostat waste statistics data sour
 
 Four SQL analyses exported as CSVs for use in BI tools: country trends, treatment coverage, sector ranking, and capacity gap.
 
-Power BI dashboard designed on a star schema data model to support DAX measure development, filter context interaction across country and year dimensions, sector-level segmentation, trend analysis, KPI aggregation, and geographic comparison.
+Interactive Power BI dashboard designed on a star schema data model to support DAX measure development, filter context interaction across country and year dimensions, sector-level segmentation, trend analysis, KPI aggregation, and geographic comparison.
 Note:.pbix is excluded to keep the repo lightweight; screenshots demonstrate the full interactive report.
 
 ## Business Questions and SQL analyses outputs (short descriptions)
