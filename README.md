@@ -71,13 +71,3 @@ What this dashboard shows:
 
 Interactivity: country and year slicers, hover tooltips, and cross-filtering across visuals.
 
-## Data Limitations
-
-- Biennial reporting: The source data is reported every two years, so some calendar years are not present.
-- YoY change: Year-over-year change compares reporting periods, not every calendar year.
-- Country code mismatch: env_wasgen uses ISO-2 codes, while env_wastrt uses country names, so a manual bridge table was needed.
-- Coverage ratio: Treatment coverage is a directional indicator, not an exact accounting match.
-- Negative gaps: Negative capacity gaps can happen when treated volumes exceed domestic generation.
--  Households code: EP_HH is Eurostat’s classification and is included as reported.
-- No facility detail: The analysis is at country and sector level only.
-- Flags not used: Source confidence or suppression flags were not filtered in this version.
