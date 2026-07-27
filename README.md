@@ -1,12 +1,45 @@
 # Industrial Hazardous Waste Market Analysis
 
 ## Overview
-This project presents a concise, business-focused analysis of hazardous waste generation and treatment trends across selected European countries for a fictitious company, GreenLoop, exploring potential expansion opportunities for its hazardous waste management operations in Europe. The objective was to identify suitable publicly available data that could reveal attractive markets for expansion and extract insights. SQL was used to efficiently prepare and analyze large datasets, while Power BI was used to visualize country- and sector-level market signals and support the identification of potential opportunities.
+This project evaluates hazardous waste generation and treatment patterns across European countries to identify market expansion opportunities for a fictional waste management company, GreenLoop. The analysis focuses on uncovering underserved markets, high-volume waste producers, and structural gaps between waste generation and treatment capacity. 
 
-## Project Goal
-Help GreenLoop identify attractive hazardous-waste markets and treatment shortfalls by answering: Which countries generate the most hazardous waste, how much is treated domestically, which sectors produce the most waste, and where are the largest gaps between generation and domestic treatment capacity?
+## Business Objective
 
-## Tools and Data
+ The goal was to support strategic expansion decisions by identifying:
+
+- High-volume hazardous waste markets
+
+-  Countries with insufficient domestic treatment capacity
+
+-  Key industrial sectors driving waste generation
+
+- Regions with the strongest unmet demand for waste treatment services
+
+## Key Insights
+
+- Czechia, Poland, and Bulgaria emerged as the largest hazardous waste generators, with consistent or growing volumes over time, indicating stable demand.
+
+- Significant disparities in treatment coverage were identified across countries, with several markets treating less than 60% of their hazardous waste domestically—highlighting reliance on external or cross-border solutions.
+
+Manufacturing is the dominant source of hazardous waste across multiple countries, making it the most important target sector for potential clients and partnerships.
+
+- Czechia and Romania show substantial treatment capacity gaps (exceeding 500,000 tonnes), signaling clear infrastructure shortages and strong potential for new market entrants.
+
+- Bulgaria stands out as a more mature market, combining increasing waste volumes with relatively high treatment coverage—suggesting lower immediate expansion potential compared to gap-driven markets.
+
+## Recommendations
+
+- Prioritize market entry in Czechia and Poland due to their combination of high waste volumes and unmet treatment demand.
+
+- Explore opportunities in Romania where capacity gaps indicate strong need for additional infrastructure or services.
+
+- Focus business development efforts on manufacturing clients, as they represent the largest and most consistent source of hazardous waste.
+
+- Consider cross-border treatment and logistics solutions in countries with low domestic coverage to quickly address demand without immediate infrastructure investment.
+
+- Monitor emerging trends in smaller but growing markets to identify early-stage expansion opportunities.
+
+## Tools and Data used
 
 - SQL (for data extraction, aggregation and modelling)
   Link: https://github.com/Natasa03-viz/Hazardous-waste-market-analysis-/tree/main/SQL%20Files
@@ -19,26 +52,6 @@ Help GreenLoop identify attractive hazardous-waste markets and treatment shortfa
 
 Source: Eurostat (env_wasgen, env_wastrt),  [Eurostat waste statistics data sources](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Waste_statistics#Data_sources)
 
-## Outputs
-
-Four SQL analyses exported as CSVs for use in BI tools: country trends, treatment coverage, sector ranking, and capacity gap.
-
-Interactive Power BI dashboard designed on a star schema data model to support DAX measure development, filter context interaction across country and year dimensions, sector-level segmentation, trend analysis, KPI aggregation, and geographic comparison.
-Note:.pbix is excluded to keep the repo lightweight; screenshots demonstrate the full interactive report.
-
-## Business Questions and SQL analyses outputs (short descriptions)
-
- - Which CEE country generates the most hazardous waste, and how has that volume changed over time?
-(q1_country_trend) - Ranks countries by total hazardous waste tonnage per reporting year and tracks the change versus the previous period. Identifies the largest and fastest-growing markets.
-
- - What share of generated hazardous waste is actually treated domestically in each country?
-(q2_treatment_coverage) - Joins generation and treatment volumes to calculate a treatment coverage %, then classifies each country into High/Medium/Low coverage. Flags where treatment infrastructure is lagging behind generation.
-
- - Which industrial sectors generate the most hazardous waste, and how does that mix differ across countries?
-( q3_sector_ranking) - Breaks total hazardous waste down by economic sector (Manufacturing, Mining, Construction, etc.), ranks sectors within each country, and calculates each sector's share of the country total. Identifies the highest-potential industrial customers per market.
-
- - Where is the biggest gap between hazardous waste generated and domestic treatment capacity?
-( q5_capacity_gap) - Subtracts treated tonnage from generated tonnage per country-year and ranks the resulting capacity gap, with a severity label (Critical/High/Moderate/None). Points out the most underserved markets — i.e., the clearest expansion opportunities.
 
 ## Dashboard Preview
 
@@ -57,16 +70,6 @@ What this dashboard shows:
 - Capacity gap: where demand likely exceeds domestic treatment capacity.
 
 Interactivity: country and year slicers, hover tooltips, and cross-filtering across visuals.
-
-### Key Findings 
-
-- Czechia, Poland, and Bulgaria are the largest generators, showing a steady trend over the years. While Estonia's trend has been declining since 2018, Bulgaria shows a steady increase alongside high treatment coverage.
-
-- Treatment coverage varies widely; several countries fall into the “Low <60%” category, indicating potential outbound treatment demand.
-
-- Manufacturing is consistently among the top waste sources in multiple markets.
-
-- Czechia, and Romania show a significant capacity gap (>500k tonnes in 2022 alone), suggesting an underserved domestic market or need for cross-border treatment solutions. Based on these results, the most sensible expansion targets are Czechia and Poland.
 
 ## Data Limitations
 
