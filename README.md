@@ -21,7 +21,7 @@ This project evaluates hazardous waste generation and treatment patterns across 
 
 - Significant disparities in treatment coverage were identified across countries, with several markets treating less than 60% of their hazardous waste domestically—highlighting reliance on external or cross-border solutions.
 
-Manufacturing is the dominant source of hazardous waste across multiple countries, making it the most important target sector for potential clients and partnerships.
+- Manufacturing is the dominant source of hazardous waste across multiple countries, making it the most important target sector for potential clients and partnerships.
 
 - Czechia and Romania show substantial treatment capacity gaps (exceeding 500,000 tonnes), signaling clear infrastructure shortages and strong potential for new market entrants.
 
