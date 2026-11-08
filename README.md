@@ -19,7 +19,7 @@ This project evaluates hazardous waste generation and treatment patterns across 
 
 - Czechia, Poland, and Bulgaria emerged as the largest hazardous waste generators, with consistent or growing volumes over time, indicating stable demand.
 
-- Significant disparities in treatment coverage were identified across countries, with several markets treating less than 60% of their hazardous waste domestically—highlighting reliance on external or cross-border solutions.
+- Significant disparities in treatment coverage were identified across countries, with several markets treating less than 60% of their hazardous waste domestically - highlighting reliance on external or cross-border solutions.
 
 - Manufacturing is the dominant source of hazardous waste across multiple countries, making it the most important target sector for potential clients and partnerships.
 
